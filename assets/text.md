@@ -2,7 +2,7 @@
   26
   London
 
-  80K
+  80k
   Followers
 
   803K
