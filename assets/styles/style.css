@@ -1,16 +1,65 @@
 
 /* Global */
 
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
 body {
+    margin: 0;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
 }
 
+/* Hero Section */
 
+.hero-section {
+    height: 95vh;
 
+    background-color: hsl(185, 75%, 39%);
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/* Profile Card */
 
+.profile-card-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 325px;
+    height: 375px;
+
+    background-color: white;
+
+    border-radius: 0.5em;
+}
+
+.user-wrapper {
+  background-image: url(../images/bg-pattern-card.svg) ;
+  background-position: top 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 2 1 285px;
+
+  border-bottom: 1px solid gray;
+}
+
+.user-info-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1 1 90px
+}
 
 
 /*Footer*/
