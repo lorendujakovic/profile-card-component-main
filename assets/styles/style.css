@@ -25,12 +25,16 @@ body {
 }
 
 .copy-info {
-  font-size: 0.75em;
+  font-size: 0.70em;
 }
 
 p {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+p strong {
+  font-size: 1em;
 }
 
 p.copy-small {
@@ -62,7 +66,7 @@ p.copy-info {
     flex-direction: column;
 
     width: 325px;
-    height: 375px;
+    height: 420px;
 
     background-color: white;
 
@@ -79,7 +83,7 @@ p.copy-info {
   flex: 2 1 285px;
 
   border-bottom: 1px solid hsl(0, 0%, 90%);
-  border-radius: 0.5em;
+  border-radius: 0.5em 0.5em 0 0; 
 }
 
 .image{
@@ -92,6 +96,8 @@ p.copy-info {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  margin-top: 15px;
 }
 
 .padding-left {
@@ -102,7 +108,14 @@ p.copy-info {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex: 1 1 90px
+  flex: 1 1 90px;
+
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 230px;
+  
 }
 
 .user-info {
@@ -114,5 +127,16 @@ p.copy-info {
 
 /*Footer*/
 
-.attribution { font-size: 0.55em; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 5vh;
+
+  font-size: 0.55em; text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
