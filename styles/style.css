@@ -63,7 +63,7 @@ p.copy-info {
     width: 100%;
 
     background-color: hsl(185, 75%, 39%);
-    background-image: url("../images/bg-pattern-top.svg"),url("../images/bg-pattern-bottom.svg");
+    background-image: url("../assets/images/bg-pattern-top.svg"),url("../assets/images/bg-pattern-bottom.svg");
 		background-repeat: no-repeat, no-repeat; 
 		background-position: -47rem -32rem ,8rem 19rem; 
    
@@ -87,7 +87,7 @@ p.copy-info {
 }
 
 .user-wrapper {
-  background-image: url(../images/bg-pattern-card.svg);
+  background-image: url("../assets/images/bg-pattern-card.svg");
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
